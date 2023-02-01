@@ -7,4 +7,4 @@ The goal of this program is to receive a value and process it correctly accordin
 4 - MINMAX: the minimum and maximum values in the buffer are found.  
 5 - ODDEVEN: the number of odd and even values in the buffer is found.  
 
-The local buffer is then replaced by four elements: the ID, the number of results, the first result, and the second result (in that order). These results are transferred to the output buffer, which is then checked by the io.c file. The buffers are cleared, and the process repeats with a new input.
+The local buffer is then replaced by four elements: the ID, the number of results, the first result, and the second result (in that order). These results are transferred to the output buffer, which is then checked by the io.c file. The buffers are cleared, and the process repeats with a new input. This program was written in CLion.
