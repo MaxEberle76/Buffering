@@ -1,5 +1,5 @@
 # Buffering
-The goal of this program is to receive a value and process it correctly according to 6 predetermined operation IDs. First, the main.c program gets a value from "io.c" and reads it into an input buffer. Next, the value is transferred into a local buffer, where its contents are assessed depending on the value of its first element:  
+The goal of this program is to receive a value and process it correctly according to 6 predetermined operation IDs. First, the "main.c" program gets a value from "io.c" and reads it into an input buffer. Next, the value is transferred into a local buffer, where its contents are assessed depending on the value of its first element:  
 
 0 - MIN: the minimum value in the buffer is found.  
 1 - MAX: the maximum value in the buffer is found.  
